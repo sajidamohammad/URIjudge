@@ -1,0 +1,12 @@
+sec=input()
+if sec<60:
+	if sec<10:
+		print "00:00:0"+str(sec)
+	if sec>11:
+		print "00:00:"+str(sec)
+if sec>60:
+	minute=sec/60
+	if minute<60:
+		print "00:"+str(minute)+":"+str(minute%60)
+	if minute>60:
+	

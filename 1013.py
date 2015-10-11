@@ -1,0 +1,4 @@
+a,b,c=map(int,raw_input().split(" "))
+maior=(a+b+abs(a-b))/2
+max_c=(maior+c+abs(maior-c))/2
+print max_c,"eh o maior"

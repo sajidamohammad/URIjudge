@@ -1,0 +1,3 @@
+pi=3.14159
+R=input()
+print "%.4f"%round(pi*R*R,4)

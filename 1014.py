@@ -1,0 +1,3 @@
+distance=input()
+fuel=float(input())
+print " %.3f km/l"%round(distance/fuel,3)

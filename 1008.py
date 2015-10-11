@@ -1,0 +1,5 @@
+no=input()
+hours=input()
+per_hr=input()
+print "NUMBER =",no
+print "SALARY = U$ %.2f"%round(hours*per_hr,2)
